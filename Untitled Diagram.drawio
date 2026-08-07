@@ -1,0 +1,202 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="CKu2_48BD8QSPXXmtQU8" name="Page-1">
+    <mxGraphModel dx="2607" dy="1213" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1660" pageHeight="800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="alation" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1;" value="Alation - Data Catalog &amp; Governance  ①" vertex="1">
+          <mxGeometry height="52" width="290" x="370" y="15" as="geometry" />
+        </mxCell>
+        <mxCell id="mc" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1;" value="Monte Carlo - Data Observability  ②" vertex="1">
+          <mxGeometry height="52" width="310" x="710" y="15" as="geometry" />
+        </mxCell>
+        <mxCell id="zoneSrc" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f7f7ff;strokeColor=#9999bb;verticalAlign=top;align=left;spacingLeft=10;spacingTop=6;fontStyle=1;fontSize=11;" value="SOURCE-OWNED · PUBLISHING PATTERNS" vertex="1">
+          <mxGeometry height="590" width="290" x="20" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="patA" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" value="Pattern A · Direct streaming&#xa;Applications publish domain&#xa;events to shared topics" vertex="1">
+          <mxGeometry height="85" width="250" x="40" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="patB" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;verticalAlign=top;fontStyle=1;fontSize=11;spacingTop=4;" value="Pattern B · Cross-cluster replication" vertex="1">
+          <mxGeometry height="175" width="250" x="40" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="srcTop" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" value="Domain team&#39;s Kafka topics" vertex="1">
+          <mxGeometry height="55" width="220" x="55" y="295" as="geometry" />
+        </mxCell>
+        <mxCell id="srcSR" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" value="Domain Schema Registry" vertex="1">
+          <mxGeometry height="50" width="220" x="55" y="365" as="geometry" />
+        </mxCell>
+        <mxCell id="patC" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" value="Pattern C · CDC&#xa;Attunity (legacy - retiring)&#xa;GoldenGate (target state)  ④&#xa;pipelines built by data owners" vertex="1">
+          <mxGeometry height="120" width="250" x="40" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="platC" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fdf1ef;strokeColor=#c9928c;verticalAlign=top;align=left;spacingLeft=10;spacingTop=6;fontStyle=1;fontSize=11;" value="SHARED STREAMING PLATFORM · PLATFORM-OWNED (this team)" vertex="1">
+          <mxGeometry height="660" width="640" x="360" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="cde" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#b85450;dashed=1;dashPattern=8 4;verticalAlign=top;fontColor=#b85450;fontStyle=1;fontSize=11;spacingTop=4;" value="CDE (CAT1) · PCI-classified flows only" vertex="1">
+          <mxGeometry height="185" width="320" x="395" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="redK" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" value="Red Kafka&#xa;PCI topics" vertex="1">
+          <mxGeometry height="70" width="130" x="415" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="tok" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" value="PCI Tokenization&#xa;(API / SDK)" vertex="1">
+          <mxGeometry height="70" width="130" x="565" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="dpaas" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;" value="DPaaS - enterprise&#xa;tokenization service&#xa;(external)" vertex="1">
+          <mxGeometry height="70" width="160" x="770" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="greenC" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eaf4ea;strokeColor=#82b366;verticalAlign=top;align=left;spacingLeft=10;spacingTop=4;fontStyle=1;fontSize=11;" value="Green Kafka (CAT2) · non-PCI + tokenized" vertex="1">
+          <mxGeometry height="225" width="575" x="395" y="395" as="geometry" />
+        </mxCell>
+        <mxCell id="greenK" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="Green Kafka&#xa;shared topics" vertex="1">
+          <mxGeometry height="75" width="170" x="415" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="ssr" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="Shared Schema Registry" vertex="1">
+          <mxGeometry height="60" width="170" x="415" y="535" as="geometry" />
+        </mxCell>
+        <mxCell id="sp" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="Stream Processing&#xa;(Green only)" vertex="1">
+          <mxGeometry height="75" width="180" x="650" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="ctrl" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;fontSize=11;" value="Platform Control Plane  ④&#xa;self-service onboarding · auto topic provisioning · access &amp; ACLs · schema / contract guardrails · data-protection standards" vertex="1">
+          <mxGeometry height="70" width="575" x="395" y="655" as="geometry" />
+        </mxCell>
+        <mxCell id="tide" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="TIDE&#xa;Topic-to-Iceberg delivery&#xa;(engine under evaluation)" vertex="1">
+          <mxGeometry height="80" width="185" x="1040" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="odsc" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="ODS sink connectors" vertex="1">
+          <mxGeometry height="60" width="185" x="1040" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="lake" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="Open Data Lake&#xa;Iceberg on S3&#xa;raw / bronze landing" vertex="1">
+          <mxGeometry height="105" width="185" x="1270" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="lakeNote" parent="1" style="shape=note;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;size=14;" value="⑤ Iceberg catalog decision pending&#xa;Snowflake Horizon ↔ Databricks&#xa;Unity Catalog (joint decision)" vertex="1">
+          <mxGeometry height="65" width="185" x="1270" y="505" as="geometry" />
+        </mxCell>
+        <mxCell id="ods" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="Operational Data Store&#xa;MongoDB Atlas leading&#xa;(decision Oct 2026)" vertex="1">
+          <mxGeometry height="100" width="185" x="1270" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="apiA" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" value="Analytical access  ⑥&#xa;SQL · Snowflake / Databricks&#xa;+ governed data APIs&#xa;→ analytics · BI · ML" vertex="1">
+          <mxGeometry height="100" width="140" x="1500" y="395" as="geometry" />
+        </mxCell>
+        <mxCell id="apiO" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" value="Operational APIs  ⑥&#xa;p99 &lt; 50 ms reads&#xa;→ operational apps ·&#xa;decisioning" vertex="1">
+          <mxGeometry height="100" width="140" x="1500" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="legend" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=10;fontColor=#555555;" value="▬ red edge: PCI (CAT1)      ▬ green edge: non-PCI / tokenized (CAT2)      ┄ dashed: metadata &amp; control&#xa;* PCI replication only from CDE-scoped source clusters" vertex="1">
+          <mxGeometry height="50" width="520" x="25" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="eA_r" edge="1" parent="1" source="patA" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#b85450;strokeWidth=2;exitX=1;exitY=0.35;entryX=0;entryY=0.2;" target="redK">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eA_g" edge="1" parent="1" source="patA" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#82b366;strokeWidth=2;exitX=1;exitY=0.75;entryX=0;entryY=0.2;" target="greenK">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eB_r" edge="1" parent="1" source="srcTop" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#b85450;strokeWidth=2;exitX=1;exitY=0.3;entryX=0;entryY=0.5;fontSize=10;" target="redK" value="replicate *">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eB_g" edge="1" parent="1" source="srcTop" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#82b366;strokeWidth=2;exitX=1;exitY=0.7;entryX=0;entryY=0.5;fontSize=10;" target="greenK" value="replicate">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eB_sr" edge="1" parent="1" source="srcSR" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#6c8ebf;dashed=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;fontSize=10;" target="ssr" value="schema sync&#xa;(guardrail-checked)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eC_r" edge="1" parent="1" source="patC" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#b85450;strokeWidth=2;exitX=1;exitY=0.2;entryX=0;entryY=0.8;" target="redK">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eC_g" edge="1" parent="1" source="patC" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#82b366;strokeWidth=2;exitX=1;exitY=0.6;entryX=0;entryY=0.8;" target="greenK">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eRK_tok" edge="1" parent="1" source="redK" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#b85450;strokeWidth=2;" target="tok">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eTok_dp" edge="1" parent="1" source="tok" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#d79b00;dashed=1;fontSize=10;" target="dpaas" value="private&#xa;connectivity">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eTok_grn" edge="1" parent="1" source="tok" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#82b366;strokeWidth=2;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=10;" target="greenK" value="tokenized topics&#xa;(sole egress from Red)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eGK_sp" edge="1" parent="1" source="greenK" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#82b366;exitX=1;exitY=0.3;entryX=0;entryY=0.3;" target="sp">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eSP_gk" edge="1" parent="1" source="sp" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#82b366;exitX=0;exitY=0.7;entryX=1;entryY=0.7;fontSize=10;" target="greenK" value="derived topics&#xa;auto-published">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eGC_tide" edge="1" parent="1" source="greenC" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#82b366;strokeWidth=2;exitX=1;exitY=0.35;entryX=0;entryY=0.5;fontSize=10;" target="tide" value="raw + derived topics">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eGC_odsc" edge="1" parent="1" source="greenC" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#82b366;strokeWidth=2;exitX=1;exitY=0.75;entryX=0;entryY=0.5;" target="odsc">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eTide_lake" edge="1" parent="1" source="tide" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#82b366;" target="lake">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eOdsc_ods" edge="1" parent="1" source="odsc" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#82b366;" target="ods">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eLake_apiA" edge="1" parent="1" source="lake" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#666666;" target="apiA">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eOds_apiO" edge="1" parent="1" source="ods" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#666666;" target="apiO">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eSSR_al" edge="1" parent="1" source="ssr" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#d6b656;dashed=1;exitX=0.3;exitY=0;entryX=0.4;entryY=1;fontSize=10;" target="alation" value="① schemas · versions · lineage feed">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ePlat_mc" edge="1" parent="1" source="platC" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#999999;dashed=1;exitX=0.62;exitY=0;entryX=0.5;entryY=1;fontSize=10;" target="mc" value="② freshness · volume · schema-drift monitors&#xa;(topics · pipelines · lake)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eAl_mc" edge="1" parent="1" source="alation" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#d6b656;dashed=1;startArrow=classic;fontSize=10;" target="mc" value="③ quality ↔ context">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fsFSKch4bhvC0BXEikHz-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;" value="STREAMING &amp; ODS PLATFORM (this team)&#xa;&#xa;Red / Green Kafka · Shared Schema Registry&#xa;Stream Processing · TIDE · ODS · Operational APIs&#xa;Platform Control Plane (onboarding · guardrails)" vertex="1">
+          <mxGeometry height="190" width="400" x="560" y="1130" as="geometry" />
+        </mxCell>
+        <mxCell id="fsFSKch4bhvC0BXEikHz-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;" value="Security &amp; Data Protection&#xa;DPaaS tokenization service · private connectivity&#xa;PCI scope &amp; attestation calendar" vertex="1">
+          <mxGeometry height="110" width="400" x="560" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="fsFSKch4bhvC0BXEikHz-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="① Data Governance · Alation&#xa;we send: topic + schema metadata · lineage events&#xa;we get: classification &amp; ownership authority ·&#xa;stewardship workflow · discoverability" vertex="1">
+          <mxGeometry height="130" width="330" x="90" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="fsFSKch4bhvC0BXEikHz-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="② Data Observability · Monte Carlo&#xa;we enable: monitors on topics · pipelines · lake&#xa;we get: freshness / volume / schema-drift&#xa;detection · streaming lineage view" vertex="1">
+          <mxGeometry height="130" width="330" x="1090" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="fsFSKch4bhvC0BXEikHz-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" value="④ Source domain teams&#xa;they own: GoldenGate builds · producers ·&#xa;data quality at source&#xa;we provide: onboarding · topic automation ·&#xa;format / protection / evolution guardrails" vertex="1">
+          <mxGeometry height="140" width="340" x="70" y="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="fsFSKch4bhvC0BXEikHz-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" value="⑤ Lakehouse &amp; Catalog team&#xa;joint decision: Iceberg catalog&#xa;(Snowflake Horizon ↔ Unity Catalog)&#xa;handoff: raw / bronze landing → curation" vertex="1">
+          <mxGeometry height="140" width="330" x="1110" y="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="fsFSKch4bhvC0BXEikHz-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" value="⑥ Enterprise API platform&#xa;we expose: ODS low-latency reads ·&#xa;lake data products&#xa;we need: gateway · authN/Z · API product standards" vertex="1">
+          <mxGeometry height="130" width="330" x="1090" y="1420" as="geometry" />
+        </mxCell>
+        <mxCell id="fsFSKch4bhvC0BXEikHz-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;verticalAlign=top;align=left;spacingLeft=10;spacingTop=6;fontStyle=1;fontSize=11;" value="⑦ Shared enterprise tooling &amp; cloud foundation" vertex="1">
+          <mxGeometry height="200" width="880" x="90" y="1420" as="geometry" />
+        </mxCell>
+        <mxCell id="fsFSKch4bhvC0BXEikHz-9" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=11;" value="ServiceNow · incident management        Wiki · documentation        Miro / draw.io · whiteboarding&#xa;Harness · CI/CD        Terraform Cloud · infrastructure as code        Microsoft Teams · collaboration&#xa;Shared cross-org document space&#xa;Cloud: AWS (EU-WEST-1 primary) + GCP strategic regions&#xa;Interim: heritage Worldpay (hWP) and heritage Global Payments (hGP) tool variants exist · convergence roadmap to be agreed" vertex="1">
+          <mxGeometry height="155" width="840" x="110" y="1452" as="geometry" />
+        </mxCell>
+        <mxCell id="fsFSKch4bhvC0BXEikHz-10" edge="1" parent="1" source="fsFSKch4bhvC0BXEikHz-1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#666666;" target="fsFSKch4bhvC0BXEikHz-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fsFSKch4bhvC0BXEikHz-11" edge="1" parent="1" source="fsFSKch4bhvC0BXEikHz-1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#666666;exitX=0;exitY=0.3;entryX=1;entryY=0.5;" target="fsFSKch4bhvC0BXEikHz-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fsFSKch4bhvC0BXEikHz-12" edge="1" parent="1" source="fsFSKch4bhvC0BXEikHz-1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#666666;exitX=1;exitY=0.3;entryX=0;entryY=0.5;" target="fsFSKch4bhvC0BXEikHz-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fsFSKch4bhvC0BXEikHz-13" edge="1" parent="1" source="fsFSKch4bhvC0BXEikHz-1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#666666;exitX=0;exitY=0.6;entryX=1;entryY=0.5;" target="fsFSKch4bhvC0BXEikHz-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fsFSKch4bhvC0BXEikHz-14" edge="1" parent="1" source="fsFSKch4bhvC0BXEikHz-1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#666666;exitX=1;exitY=0.6;entryX=0;entryY=0.5;" target="fsFSKch4bhvC0BXEikHz-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fsFSKch4bhvC0BXEikHz-15" edge="1" parent="1" source="fsFSKch4bhvC0BXEikHz-1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#666666;exitX=0.85;exitY=1;entryX=0;entryY=0.3;" target="fsFSKch4bhvC0BXEikHz-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fsFSKch4bhvC0BXEikHz-16" edge="1" parent="1" source="fsFSKch4bhvC0BXEikHz-1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#999999;exitX=0.3;exitY=1;entryX=0.6;entryY=0;" target="fsFSKch4bhvC0BXEikHz-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fsFSKch4bhvC0BXEikHz-17" edge="1" parent="1" source="fsFSKch4bhvC0BXEikHz-3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#d6b656;dashed=1;startArrow=classic;exitX=0.5;exitY=0;entryX=0.5;entryY=0;fontSize=10;" target="fsFSKch4bhvC0BXEikHz-4" value="③ quality signals surfaced in catalog">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
