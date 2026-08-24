@@ -1,0 +1,99 @@
+<mxfile host="app.diagrams.net" modified="2026-08-24" agent="internal" version="24.7.5">
+  <diagram id="ods-plan-to-decision" name="Updated Plan to Decision">
+    <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <mxCell id="title" value="Operational Data Store: Updated Plan to Decision" style="text;html=1;fontSize=22;fontStyle=1;fontColor=#1F3864;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="60" y="24" width="900" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="From closed criteria to a ratified target-state platform decision, covering deployment pattern and three-year total cost of ownership" style="text;html=1;fontSize=13;fontColor=#595959;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="60" y="58" width="1100" height="22" as="geometry" />
+        </mxCell>
+
+        <mxCell id="monthAug" value="AUGUST 2026" style="text;html=1;fontSize=11;fontStyle=1;fontColor=#8C8C8C;align=left;letterSpacing=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="348" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="monthSep" value="SEPTEMBER 2026" style="text;html=1;fontSize=11;fontStyle=1;fontColor=#8C8C8C;align=left;letterSpacing=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="348" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="monthOct" value="OCTOBER 2026" style="text;html=1;fontSize=11;fontStyle=1;fontColor=#8C8C8C;align=left;letterSpacing=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="348" width="200" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="spine" style="endArrow=block;endFill=1;html=1;strokeColor=#1F3864;strokeWidth=3;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="382" as="sourcePoint" />
+            <mxPoint x="1450" y="382" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="stem1" value="" style="rounded=0;html=1;fillColor=#4E7A3A;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="169" y="340" width="2" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m1" value="" style="ellipse;html=1;fillColor=#4E7A3A;strokeColor=#FFFFFF;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="158" y="371" width="24" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="c1" value="&lt;b style=&quot;font-size:16px;color:#2E6B2E&quot;&gt;Aug 21&lt;/b&gt;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;font-size:10px;color:#2E6B2E&quot;&gt;&lt;b&gt;COMPLETE&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;b&gt;Criteria closed&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;Peer feedback on the evaluation criteria addressed and closed. Document at v2.1.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E7F0E2;strokeColor=#4E7A3A;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;spacingRight=8;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="65" y="185" width="210" height="155" as="geometry" />
+        </mxCell>
+
+        <mxCell id="stem2" value="" style="rounded=0;html=1;fillColor=#1F3864;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="399" y="394" width="2" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m2" value="" style="ellipse;html=1;fillColor=#FFFFFF;strokeColor=#1F3864;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="388" y="371" width="24" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="c2" value="&lt;b style=&quot;font-size:16px;color:#1F3864&quot;&gt;Aug 28&lt;/b&gt;&lt;br&gt;&lt;b&gt;Weights and field&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;Scoring weights ratified and vendor field confirmed.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1F3864;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;spacingRight=8;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="295" y="424" width="210" height="155" as="geometry" />
+        </mxCell>
+
+        <mxCell id="stem3" value="" style="rounded=0;html=1;fillColor=#1F3864;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="629" y="340" width="2" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m3" value="" style="ellipse;html=1;fillColor=#FFFFFF;strokeColor=#1F3864;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="618" y="371" width="24" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="c3" value="&lt;b style=&quot;font-size:16px;color:#1F3864&quot;&gt;Sep 10&lt;/b&gt;&lt;br&gt;&lt;b&gt;Pack issued&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;Evaluation pack issued to selected vendors. Initial demonstrations held and responses documented.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1F3864;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;spacingRight=8;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="525" y="185" width="210" height="155" as="geometry" />
+        </mxCell>
+
+        <mxCell id="stem4" value="" style="rounded=0;html=1;fillColor=#1F3864;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="859" y="394" width="2" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m4" value="" style="ellipse;html=1;fillColor=#FFFFFF;strokeColor=#1F3864;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="848" y="371" width="24" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="c4" value="&lt;b style=&quot;font-size:16px;color:#1F3864&quot;&gt;Sep 18&lt;/b&gt;&lt;br&gt;&lt;b&gt;Scored and shortlisted&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;Weighted scoring of responses. Field narrowed to two or three platforms for in-depth demonstrations.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1F3864;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;spacingRight=8;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="755" y="424" width="210" height="155" as="geometry" />
+        </mxCell>
+
+        <mxCell id="stem5" value="" style="rounded=0;html=1;fillColor=#1F3864;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1089" y="340" width="2" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m5" value="" style="ellipse;html=1;fillColor=#FFFFFF;strokeColor=#1F3864;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="1078" y="371" width="24" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="c5" value="&lt;b style=&quot;font-size:16px;color:#1F3864&quot;&gt;Oct 2&lt;/b&gt;&lt;br&gt;&lt;b&gt;Validated&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;Proof of concept and targeted validation against the performance requirements, in a Global Payments data-platform-relevant architecture.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1F3864;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;spacingRight=8;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="985" y="185" width="210" height="155" as="geometry" />
+        </mxCell>
+
+        <mxCell id="stem6" value="" style="rounded=0;html=1;fillColor=#1F3864;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1329" y="394" width="2" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m6" value="" style="ellipse;html=1;fillColor=#1F3864;strokeColor=#FFFFFF;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="1315" y="367" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c6" value="&lt;b style=&quot;font-size:16px;color:#FFFFFF&quot;&gt;Oct 9&lt;/b&gt;&lt;br&gt;&lt;b style=&quot;color:#FFFFFF&quot;&gt;Decision&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px;color:#FFFFFF&quot;&gt;Recommendation with deployment pattern and total cost of ownership. Leadership review and sign-off.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1F3864;strokeColor=#1F3864;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;spacingRight=8;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="1225" y="424" width="210" height="155" as="geometry" />
+        </mxCell>
+
+        <mxCell id="guardrails" value="&lt;b style=&quot;color:#1F3864&quot;&gt;Guardrails&lt;/b&gt;&amp;nbsp;&amp;nbsp;Weights ratified before any response is seen&amp;nbsp; &amp;#183; &amp;nbsp;Validation before decision, not after&amp;nbsp; &amp;#183; &amp;nbsp;Dual-cloud and payment-card compliance treated as entry gates&amp;nbsp; &amp;#183; &amp;nbsp;Cost of ownership assessed at current and ten times volume&amp;nbsp; &amp;#183; &amp;nbsp;Identical sizing reference issued to every vendor" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F7FA;strokeColor=#D9D9D9;align=left;verticalAlign=middle;spacingLeft=14;fontSize=11;fontColor=#404040;arcSize=6;" vertex="1" parent="1">
+          <mxGeometry x="65" y="640" width="1370" height="46" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
